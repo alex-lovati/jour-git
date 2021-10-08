@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+    
+}
+td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    color:rgb(255, 255, 255)
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#fond{
+    max-width: 100%;
+}
+.tableau{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
